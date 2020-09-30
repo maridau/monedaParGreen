@@ -1,0 +1,131 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+.button-primary {
+  color:#ffffff;
+  margin: 10px;
+  width: 100%;
+  height: 52px;
+  background: linear-gradient(180deg, #42B883 0%, #7AEAB7 100%);
+  border: 2px solid #42B883;
+  border-radius: 30px;
+}
+
+.button-secondary {
+  color:#42B883;
+  margin: 10px;
+  width: 100%;
+  height: 52px;
+  background: #FFFFFF;
+  border-radius: 30px;
+  border: 2px solid #42B883;
+}
+form input[type=email] {
+  border-bottom: 2px solid #7AEAB7;
+  border-top:0;
+  border-left: 0;
+  border-right: 0;
+}
+form input[type=password] {
+  border-bottom: 2px solid #7AEAB7;
+  border-top:0;
+  border-left: 0;
+  border-right: 0;
+}
+
+/****** SPLASH *********/
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  top: 20px;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #cccccc;
+  text-align: center;
+}
+
+.carousel-caption button {
+  bottom: 20px;
+}
+.carousel-indicators li {
+  box-sizing: content-box;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  width: 20px;
+  height: 20px;
+  border-radius:10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #42B883;
+  background-clip: padding-box;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity .6s ease;
+}
+
+/*******  END SPLASH ********/
+
+
+/****** FOOTER *********/
+.navbar, .navbar-nav {
+ display: inline-flex;
+}
+
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/*******  END NAVBAR ********/
+
+
+
+
+/****** FOOTER *********/
+
+.container {
+  width: auto;
+  max-width: 680px;
+  padding: 0 15px;
+}
+
+.footer {
+  background-color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.mt-auto, .my-auto {
+  margin-top: auto!important;
+}
+
+.pb-3, .py-3 {
+  padding-bottom: 1rem!important;
+}
+
+.pt-3, .py-3 {
+  padding-top: 1rem!important;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+/*******  END FOOTER ********/
