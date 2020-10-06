@@ -1,6 +1,76 @@
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
+h3{font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 26px;
+  text-align: center;
+  color: #35495E;
+}
+
+p{font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #35495E;
+  position: absolute;
+  top: 450px;
+}
+
+a.splash:link {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #42B883;
+  position: absolute;
+  top: 550px;
+}
+
+/* visited link */
+a.splash:visited {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #42B883;
+  position: absolute;
+  top: 550px;
+}
+
+/* mouse over link */
+a.splash:hover {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #42B883;
+  position: absolute;
+  top: 550px;
+}
+
+/* selected link */
+a.splash:active {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #42B883;
+  position: absolute;
+  top: 550px;
+}
 
 .button-primary {
   color:#ffffff;
