@@ -1,76 +1,9 @@
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
-h3{font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 26px;
-  text-align: center;
-  color: #35495E;
-}
 
-p{font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #35495E;
-  position: absolute;
-  top: 450px;
-}
 
-a.splash:link {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #42B883;
-  position: absolute;
-  top: 550px;
-}
-
-/* visited link */
-a.splash:visited {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #42B883;
-  position: absolute;
-  top: 550px;
-}
-
-/* mouse over link */
-a.splash:hover {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #42B883;
-  position: absolute;
-  top: 550px;
-}
-
-/* selected link */
-a.splash:active {
-  font-family: Source Sans Pro;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  text-align: center;
-  color: #42B883;
-  position: absolute;
-  top: 550px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
 .button-primary {
   color:#ffffff;
@@ -159,7 +92,22 @@ form input[type=password] {
 
 /*******  END NAVBAR ********/
 
+body {font-family: 'Source Sans Pro', sans-serif;}
+/*******  CARD - AVATAR ********/
+.main {padding-bottom: 112px}
+.card {font-family: 'Source Sans Pro', sans-serif;}
+.card p, .card-title {margin-bottom: 0.5rem;}
+.card-title, .card-text {color: #434a50}
+.rounded-2 {border-radius: 20px;}
+.avatar {width: 75%; border:2px solid #85e4b8;}
+.points {border-left: 2px solid #ccc}
+.img-thumbnail {background-color: #85e4b8;border: none;}
 
+header {background: rgb(133,228,184);background: linear-gradient(0deg, rgba(133,228,184,1) 0%, rgba(76,153,117,1) 73%);border-radius: 0 0 100% 100% / 0px 0px 35% 35% ;    height: 250px;}
+header .menu {font-size: 1.3rem; color: #fff}
+header .avatar {width: 60%; border:2px solid #fff;}
+header .img-thumbnail {background-color: #fff;border: none;}
+header h4, header p {margin-bottom: 0}
 
 
 /****** FOOTER *********/
